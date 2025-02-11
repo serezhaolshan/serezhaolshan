@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=serezhaolshan" alt="serezhaolshan" /></a> </p>
 
-- 🔭 I’m currently working on [AirDao](https://airdao.io)
+- 🔭 I’m currently working on [AirDAO](https://airdao.io)
 
 - 📫 How to reach me **serezhaolshan@gmail.com**
 
