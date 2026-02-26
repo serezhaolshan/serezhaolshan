@@ -8,7 +8,7 @@
 <!-- Social badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/serezhaolshan)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:serezhaolshan@gmail.com)
-[![AirDAO](https://img.shields.io/badge/AirDAO-00D4AA?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMiAyMGgyMEwxMiAyem0wIDRsNiAxMkg2bDYtMTJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+&logoColor=white)](https://airdao.io)
+[![AirDAO](https://img.shields.io/badge/AirDAO-00D4AA?style=for-the-badge&logoColor=white)](https://airdao.io)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ### `> whoami`
 
-Бекенд-розробник з України, який будує надійну інфраструктуру для Web3. Зараз працюю в **[AirDAO](https://airdao.io)** — створюю масштабовані блокчейн-рішення. Люблю чистий код, розподілені системи та все, що працює швидко і безвідмовно.
+Backend developer from Ukraine building reliable infrastructure for Web3. Currently working at **[AirDAO](https://airdao.io)** — crafting scalable blockchain solutions. I'm passionate about clean code, distributed systems, and anything that runs fast and never goes down.
 
 <br/>
 
@@ -74,13 +74,12 @@
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=serezhaolshan&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=00000000&title_color=00d4aa&icon_color=7b68ee&text_color=8b949e" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs?username=serezhaolshan&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=00000000&title_color=00d4aa&text_color=8b949e" alt="Top Languages"/>
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=serezhaolshan&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=7b68ee&text_color=8b949e) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=serezhaolshan&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=8b949e) |
+|---|---|
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=serezhaolshan&theme=github-dark-blue&hide_border=true&background=00000000&ring=00d4aa&fire=7b68ee&currStreakLabel=00d4aa&sideLabels=8b949e&dates=484f58" alt="GitHub Streak"/>
+![GitHub Streak](https://streak-stats.demolab.com?user=serezhaolshan&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4aa&fire=7b68ee&currStreakLabel=00d4aa&sideLabels=8b949e&dates=484f58)
 
 </div>
 
@@ -89,7 +88,9 @@
 ### `> trophies --display`
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=serezhaolshan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=serezhaolshan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10)
+
 </div>
 
 <br/>
@@ -98,7 +99,7 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=serezhaolshan&style=flat-square&color=00d4aa&label=Profile+Views" alt="Profile views"/>
+![Profile Views](https://komarev.com/ghpvc/?username=serezhaolshan&style=flat-square&color=00d4aa&label=Profile+Views)
 
 *"Any sufficiently advanced backend is indistinguishable from magic."*
 
