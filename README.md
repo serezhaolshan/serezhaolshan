@@ -70,31 +70,6 @@ Backend developer from Ukraine building reliable infrastructure for Web3. Curren
 
 <br/>
 
-### `> stats --github`
-
-<div align="center">
-
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=serezhaolshan&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=7b68ee&text_color=8b949e) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=serezhaolshan&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=8b949e) |
-|---|---|
-
-<br/>
-
-![GitHub Streak](https://streak-stats.demolab.com?user=serezhaolshan&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4aa&fire=7b68ee&currStreakLabel=00d4aa&sideLabels=8b949e&dates=484f58)
-
-</div>
-
-<br/>
-
-### `> trophies --display`
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=serezhaolshan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10)
-
-</div>
-
-<br/>
-
 ---
 
 <div align="center">
