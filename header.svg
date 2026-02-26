@@ -121,10 +121,9 @@
         Backend Developer  ·  Blockchain Engineer
       </text>
 
-      <!-- Location + project -->
+      <!-- Location -->
       <text y="140" text-anchor="middle" font-family="monospace" font-size="13" fill="#484f58">
-        📍 Ukraine  ·  🔗 Building
-        <tspan fill="#00d4aa"> AirDAO</tspan>
+        📍 Ukraine
       </text>
 
       <!-- Tech tags -->
