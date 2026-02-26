@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0f1a"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4aa"/>
+      <stop offset="100%" style="stop-color:#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7b68ee"/>
+      <stop offset="100%" style="stop-color:#00d4aa"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#00d4aa;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="roundedRect">
+      <rect width="900" height="320" rx="0" ry="0"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedRect)">
+    <!-- Background -->
+    <rect width="900" height="320" fill="url(#bg)"/>
+
+    <!-- Animated ambient blobs -->
+    <circle cx="150" cy="80" r="120" fill="#00d4aa" opacity="0.07" filter="url(#blur1)">
+      <animate attributeName="cx" values="150;200;150" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="80;140;80" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="250" r="100" fill="#7b68ee" opacity="0.08" filter="url(#blur1)">
+      <animate attributeName="cx" values="750;700;750" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;180;250" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="160" r="80" fill="#00b4d8" opacity="0.05" filter="url(#blur1)">
+      <animate attributeName="r" values="80;110;80" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Grid pattern -->
+    <g opacity="0.04" stroke="#00d4aa" stroke-width="0.5">
+      <line x1="0" y1="0" x2="0" y2="320"/><line x1="60" y1="0" x2="60" y2="320"/>
+      <line x1="120" y1="0" x2="120" y2="320"/><line x1="180" y1="0" x2="180" y2="320"/>
+      <line x1="240" y1="0" x2="240" y2="320"/><line x1="300" y1="0" x2="300" y2="320"/>
+      <line x1="360" y1="0" x2="360" y2="320"/><line x1="420" y1="0" x2="420" y2="320"/>
+      <line x1="480" y1="0" x2="480" y2="320"/><line x1="540" y1="0" x2="540" y2="320"/>
+      <line x1="600" y1="0" x2="600" y2="320"/><line x1="660" y1="0" x2="660" y2="320"/>
+      <line x1="720" y1="0" x2="720" y2="320"/><line x1="780" y1="0" x2="780" y2="320"/>
+      <line x1="840" y1="0" x2="840" y2="320"/><line x1="900" y1="0" x2="900" y2="320"/>
+      <line x1="0" y1="0" x2="900" y2="0"/><line x1="0" y1="60" x2="900" y2="60"/>
+      <line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="180" x2="900" y2="180"/>
+      <line x1="0" y1="240" x2="900" y2="240"/><line x1="0" y1="300" x2="900" y2="300"/>
+    </g>
+
+    <!-- Floating particles -->
+    <circle cx="100" cy="50" r="1.5" fill="#00d4aa" opacity="0.6">
+      <animate attributeName="cy" values="50;45;55;50" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="280" r="1" fill="#7b68ee" opacity="0.5">
+      <animate attributeName="cy" values="280;270;290;280" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="30" r="1.5" fill="#00b4d8" opacity="0.4">
+      <animate attributeName="cy" values="30;20;40;30" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="70" r="1" fill="#00d4aa" opacity="0.5">
+      <animate attributeName="cy" values="70;60;80;70" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="130" r="1.5" fill="#7b68ee" opacity="0.4">
+      <animate attributeName="cy" values="130;120;140;130" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="290" r="1" fill="#00d4aa" opacity="0.3">
+      <animate attributeName="cy" values="290;280;300;290" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Terminal-style decorative bracket -->
+    <g transform="translate(60, 90)" opacity="0.15">
+      <text font-family="monospace" font-size="140" fill="#00d4aa" font-weight="300">{</text>
+    </g>
+    <g transform="translate(810, 90)" opacity="0.15">
+      <text font-family="monospace" font-size="140" fill="#7b68ee" font-weight="300">}</text>
+    </g>
+
+    <!-- Main content -->
+    <g transform="translate(450, 100)">
+      <!-- Greeting line -->
+      <text text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#00d4aa" letter-spacing="6" opacity="0.8">
+        HELLO WORLD — I'M
+        <animate attributeName="opacity" values="0.8;0.5;0.8" dur="3s" repeatCount="indefinite"/>
+      </text>
+
+      <!-- Name -->
+      <text y="50" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" fill="#e6edf3" font-weight="700" letter-spacing="2" filter="url(#textGlow)">
+        serezhaolshan
+      </text>
+
+      <!-- Accent line -->
+      <line x1="-60" y1="72" x2="60" y2="72" stroke="url(#accent1)" stroke-width="2" opacity="0.8">
+        <animate attributeName="x1" values="-60;-80;-60" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="x2" values="60;80;60" dur="4s" repeatCount="indefinite"/>
+      </line>
+
+      <!-- Role -->
+      <text y="105" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b949e" letter-spacing="1">
+        Backend Developer  ·  Blockchain Engineer
+      </text>
+
+      <!-- Location + project -->
+      <text y="140" text-anchor="middle" font-family="monospace" font-size="13" fill="#484f58">
+        📍 Ukraine  ·  🔗 Building
+        <tspan fill="#00d4aa"> AirDAO</tspan>
+      </text>
+
+      <!-- Tech tags -->
+      <g transform="translate(0, 170)">
+        <rect x="-220" y="-12" width="70" height="24" rx="12" fill="#00d4aa" opacity="0.1" stroke="#00d4aa" stroke-width="0.5" stroke-opacity="0.3"/>
+        <text x="-185" y="4" text-anchor="middle" font-family="monospace" font-size="11" fill="#00d4aa">Node.js</text>
+
+        <rect x="-135" y="-12" width="50" height="24" rx="12" fill="#00b4d8" opacity="0.1" stroke="#00b4d8" stroke-width="0.5" stroke-opacity="0.3"/>
+        <text x="-110" y="4" text-anchor="middle" font-family="monospace" font-size="11" fill="#00b4d8">Go</text>
+
+        <rect x="-70" y="-12" width="85" height="24" rx="12" fill="#7b68ee" opacity="0.1" stroke="#7b68ee" stroke-width="0.5" stroke-opacity="0.3"/>
+        <text x="-27" y="4" text-anchor="middle" font-family="monospace" font-size="11" fill="#7b68ee">TypeScript</text>
+
+        <rect x="30" y="-12" width="75" height="24" rx="12" fill="#00d4aa" opacity="0.1" stroke="#00d4aa" stroke-width="0.5" stroke-opacity="0.3"/>
+        <text x="67" y="4" text-anchor="middle" font-family="monospace" font-size="11" fill="#00d4aa">Docker</text>
+
+        <rect x="120" y="-12" width="95" height="24" rx="12" fill="#00b4d8" opacity="0.1" stroke="#00b4d8" stroke-width="0.5" stroke-opacity="0.3"/>
+        <text x="167" y="4" text-anchor="middle" font-family="monospace" font-size="11" fill="#00b4d8">Kubernetes</text>
+      </g>
+    </g>
+
+    <!-- Bottom line accent -->
+    <rect x="0" y="316" width="900" height="4" fill="url(#accent2)" opacity="0.6"/>
+  </g>
+</svg>
